@@ -3,6 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cert: <http://www.w3.org/ns/auth/cert#> .
 @prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
 
 <> a foaf:PersonalProfileDocument ;
    foaf:maker <#this> ;
@@ -11,6 +12,7 @@
 <#this> a foaf:Person ;
    foaf:name "Meti Bayissa" ;
    foaf:account <https://databus.dbpedia.org/purplebee#this>;
+   a dbo:DBpedian;
    cert:key [ 
        a cert:RSAPublicKey;
        rdfs:label "DBpedia Amharic Chapter";
