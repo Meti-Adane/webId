@@ -9,7 +9,7 @@
 
 <#this> a foaf:Person ;
    foaf:name "Meti Bayissa";
-   foaf:account <https://databus.dbpedia.org/purplebee#this>;
+   foaf:account <https://databus.dbpedia.org/purplebee>;
    cert:key [ 
        a cert:RSAPublicKey;
        rdfs:label "DBpedia Amharic Chapter";
